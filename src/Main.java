@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        String login = "user";
+        String password = "password1";
+        String confirmPassword = "password";
+
+
+        System.out.println(Validator.validate(login,password,confirmPassword));
+
     }
 }
